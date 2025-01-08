@@ -1,1 +1,0 @@
-Write a java prog using a class- the name of the class is myClass that consist of a single method. print your name department rollNum using that single method  
