@@ -10,7 +10,7 @@ class Num {
     }
     public static void main(String[] args) {
         Num obj = new Num();
-        obj.getMethod(10);
+        obj.getMethod(100);
         obj.show();
     }
 }
