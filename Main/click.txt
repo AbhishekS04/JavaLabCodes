@@ -1,0 +1,5 @@
+//! this file is not regarding to the classes so just ignore this and if you do then funk y*u.....
+
+// basics of JAVA compleated
+
+// day-2 JAVA DATA TYPES
