@@ -32,16 +32,51 @@ public class DataTypes {
         // String myString = "Abhishek Singh";
         // System.out.println("The string is: " + myString);
 
+        // ! examples
 
-        //! examples 
+        // float f1=15.99f;
+        // System.out.println("The Float Value Is: "+f1);
 
-        float f1=15.99f;
-        System.out.println("The Float Value Is: "+f1);
+        // ! the value is 120000.0 because the E4 is a scientific notation and it is
+        // equal to 10^4
 
-        //! Why the value is 120000.0 because the E4 is a scientific notation and it is equal to 10^4
+        // double d1=12E4d;
+        // System.out.println("The Float Value Is: "+d1);
 
-        double d1=12E4d;
-        System.out.println("The Float Value Is: "+d1);
+        // ! More examples
 
+        // boolean isJavaFun =true;
+        // boolean isFishTasty = false;
+        // System.out.println("Java is fun: "+isJavaFun);
+        // System.out.println("Java is fun: "+isFishTasty);
+
+        // ! More examples
+
+        // char myGrade ='a';
+        // System.out.println(myGrade);
+
+        // ? another type of char example
+
+        // * The ASCII value of A is 65, B is 66, and C is 67
+
+        // char myVal1= 65, myVal2= 66, myVal3= 67;
+        // System.out.println("The First Value is: " + myVal1);
+        // System.out.println("The Second Value is: " + myVal2);
+        // System.out.println("The Third Value is: " + myVal3);
+
+        // ! string example
+
+        // String msg = "Hello my name is Abhishek singh";
+        // System.out.println("The message is: " + msg);
+
+        // ! Real-Life example
+
+        int items = 20;
+        float costPerItems = 10.99f;
+        float totalCost = items * costPerItems;
+        char currency = '$';
+        System.out.println("The number of items are: " + items);
+        System.out.println("the cost per item is: " + currency + costPerItems );
+        System.out.println("Total cost: "+  currency + totalCost );
     }
 }
