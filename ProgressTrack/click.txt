@@ -1,4 +1,4 @@
-//! this file is not regarding to the classes so just ignore this and if you do not then funk y*u.....
+// Note: This file is not related to the classes, so you can ignore it. If you have any questions, please let me know.
 
 // basics of JAVA compleated
 
