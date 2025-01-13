@@ -1,0 +1,19 @@
+
+1. Write a Java program using a class. The name of the class is `MyClass` that consists of a single method. Print your name, department, and roll number using that single method.
+
+2. Write a Java program to define a class `Num` with a single variable and the following methods:  
+   - `getMethod()`: Initialize the variable.  
+   - `show()`: Display the value of the variable.  
+   - `main()`: Entry point of the program.
+
+3. Write a program to take input using command-line arguments:  
+   - List 3 favorite foods.  
+   - List 3 favorite books.  
+   - List 3 favorite places.
+
+4. Write a Java program to define a class `Arithmetic` with 2 member variables and the following methods:  
+   - `add()`: To sum 2 numbers and print the result.  
+   - `sub()`: To subtract 2 numbers and print the result.  
+   - `multiply()`: To multiply 2 numbers and print the result.  
+   - `division()`: To divide 2 numbers and print the result.  
+   - `get(int, int)`: To set the values of the variables. 
