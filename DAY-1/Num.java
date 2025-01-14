@@ -14,3 +14,7 @@ class Num {
         obj.show();
     }
 }
+
+//! output 
+
+// ? The number is: 100

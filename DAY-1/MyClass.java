@@ -10,10 +10,22 @@
 
 class MyClass {
     public static void main(String args[]) {
-      
+
         System.out.println("Name:" + args[0]);
         System.out.println("Roll:" + args[1]);
         System.out.println("Sec:" + args[2]);
-        
+
     }
 }
+
+// ! output
+
+// ? javac MyClass.java
+// ? java MyClass "Abhishek" "011" "A"
+/*
+
+ * ? Name:Abhishek singh
+ * ? Roll:011
+ * ? Sec:A
+  
+ */

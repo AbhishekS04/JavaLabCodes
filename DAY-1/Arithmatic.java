@@ -27,3 +27,10 @@ class Arithmatic {
         obj.division();
     }
 }
+
+//! output 
+
+// ? Sum of the number is: 15
+// ? Sub of the number is: 5
+// ? Multiply of the number is: 50
+// ? Division of the number is: 2
