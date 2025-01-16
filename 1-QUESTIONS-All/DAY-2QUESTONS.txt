@@ -1,0 +1,13 @@
+// prac 
+
+// q1>calculate the area of circle and square using method overloading
+
+
+//AS-2
+
+// 1) Define a class Employee with member variables empId, empName, salary, and designation
+// 2) Define a constructor to initialize all variables
+// 3) Define display() method to display the record of an employee
+// 4) Define compare() method to compare the salary of employees and print the name and designation of the highest paid employee
+// 5) Create 2 employee objects, show their records, and find the highest paid employee 
+
