@@ -1,6 +1,5 @@
 //! calculate the area of circle and square using method overloading
 
-// ...existing code...
 
 import java.util.Scanner;
 
@@ -18,13 +17,13 @@ class Test {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the radius of the circle: ");
+        System.out.print("Enter the radius of the circle: ");
         float radius = sc.nextFloat();
-        System.out.println("Enter the side of the square: ");
+        System.out.print("Enter the side of the square: ");
         int side = sc.nextInt();
 
         Test test = new Test();
         System.out.println("The area of the circle is: " + test.calArea(radius));
-        System.out.println("The area of the square is: " + test.calArea(side));
+        System.out.print("The area of the square is: " + test.calArea(side));
     }
 }
