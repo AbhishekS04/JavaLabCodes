@@ -1,4 +1,4 @@
-// Define a class Box with member variable length, breadth, and height. Define constructor to create object of cube and cuboid. Define method to calculate volume of both cube and cuboid. Define display method to show the volume of the cube and cuboid. In main method, create objects of Box class where one object is cube type and another is cuboid. Find volume of both.
+//! Define a class Box with member variable length, breadth, and height. Define constructor to create object of cube and cuboid. Define method to calculate volume of both cube and cuboid. Define display method to show the volume of the cube and cuboid. In main method, create objects of Box class where one object is cube type and another is cuboid. Find volume of both.
 
 public class Box {
     private double length;

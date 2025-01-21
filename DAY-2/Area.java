@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-class Test {
+class Area {
     float radius;
     int side;
 
@@ -22,7 +22,7 @@ class Test {
         System.out.print("Enter the side of the square: ");
         int side = sc.nextInt();
 
-        Test test = new Test();
+        Area test = new Area();
         System.out.println("The area of the circle is: " + test.calArea(radius));
         System.out.print("The area of the square is: " + test.calArea(side));
     }
