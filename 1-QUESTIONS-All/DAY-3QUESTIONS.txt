@@ -1,0 +1,3 @@
+// Write a Java program with multiple classes A, B, and C respectively. All the classes have a single member variable. Class A and Class B have methods to initialize the member variable. Class C has a method for the addition of two variables of the classes A and B respectively, and a show method to display the sum. Define the main method in class C.
+
+// 
