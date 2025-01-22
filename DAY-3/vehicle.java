@@ -8,8 +8,7 @@ class vehicle {
     }
 }
 
-class Car extends
-        vehicle {
+class Car extends vehicle {
     String model;
     int price;
 
@@ -20,8 +19,13 @@ class Car extends
     }
 
     void display() {
-        System.out.println("The type of the vehicle is: " + type);
-        System.out.println("The model of the vehicle is: " + model);
-        System.out.println("The price of the vehicle is: " + price);
+        System.out.println("Vehicle Type: " + (type));
+        System.out.println("Car Model: " + model);
+        System.out.println("Price: " + price);
+    }
+
+    public static void main(String[] args) {
+        Car c = new Car("Fortuner", "Toyota", 250000);
+        c.display();
     }
 }
