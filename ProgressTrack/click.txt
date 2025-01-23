@@ -1,5 +1,7 @@
 // Note: This file is not related to the classes, so you can ignore it. If you have any questions, please let me know.
 
-// basics of JAVA compleated
+// Topic:1 JAVA compleated
 
-// day-2 JAVA DATA TYPES
+// Topic:2 JAVA DATA TYPES
+
+// Topic:3 JAVA OPERATORS
