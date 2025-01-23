@@ -3,3 +3,9 @@
 // Write a Java program to define a fruit with member variable name and member methods get name show name define a child class orange of fruit class with member variablesseason and prize and member methods get data and display create object of orange class and display the records
 
 //Define a class vehicle with one member variable type initialize the variable with constructor define a class car with the number variable model and price initialize thevariable with constructor define a method display() in car class to show the record of a car
+
+////! Define the 3 classes named Add, Sub, Div with two member variables each and get methods to initialize the  variables and add(), sub() and div() methods in respective classes. All the classes have show() method to display the result of addition, substruction, division respectively. Define Main class that have main() method. In main() method create objects of 3 classes and perform arithmetic operations.
+
+//! The variables are initialized with 12 and 6 respectively.
+
+//P.S:5 Define a base class Animal, with type as member variable that imply domestic or wild animal. Initialize the variable with get() method. Define a derived class Cat which has two member variables breed and colour. Initialize the variables with set() method. Define show() method in Cat class that show the attributes of a Cat. Define a Main class and create two objects of the Cat class

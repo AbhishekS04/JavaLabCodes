@@ -2,35 +2,26 @@
 
 class A {
     int a;
-
-    void initA(int a) {
-        this.a = a;
-    }
 }
 
 class B {
     int b;
-
-    void initB(int b) {
-        this.b = b;
-    }
 }
 
 class C {
     void add(A obj1, B obj2) {
-        int sum = obj1.a + obj2.b;
-        System.out.println("The sum is: " + sum);
+        System.out.println("The sum is: " + (obj1.a + obj2.b));
     }
 }
 
-public class Tclass {
+public class SumClass {
     public static void main(String[] args) {
         A obj1 = new A();
         B obj2 = new B();
         C obj3 = new C();
 
-        obj1.initA(10);
-        obj2.initB(20);
+        obj1.a = 10;
+        obj2.b = 20;
 
         obj3.add(obj1, obj2);
     }
