@@ -6,4 +6,12 @@
 
 // Topic:3 JAVA OPERATORS
 
-// Topic:4 JAVA STRINGS....will do
+// Topic:4 JAVA STRINGS...CONCATENATION...NUMBER AND STRINGS...SPECIAL CHARECTERS
+
+// Topic:5 JAVA MATH
+
+// Topic:6 JAVA BOOLEANS
+
+// Topic:7 JAVA IF ELSE....ALL TYPES OF..
+
+// Topic:8 JAVA SWITCH...will do it tomorrow
