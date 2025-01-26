@@ -49,16 +49,31 @@ public class JavaLoops {
         // }
 
         // ! real life example
-      
+
         // int number = 11;
 
         // for (int i = 1; i <= 10; i++) {
-        //     System.out.println(number + " x " + i + " = " + (number * i));
+        // System.out.println(number + " x " + i + " = " + (number * i));
         // }
 
-        //! java break statement
+        // ! java break statement
 
-        
+        // 10441
+
+        // for (int i = 0; i < 5; i++) {
+        //     if (i == 4) {
+        //         break;
+        //     }
+        //     System.out.println(i);
+        // }
+
+        for (int i = 0; i < 10; i++) {
+            if (i == 4) {
+                continue;
+            }
+            System.out.println(i);
+        }
+
     }
 
 }
