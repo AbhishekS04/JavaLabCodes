@@ -59,9 +59,28 @@ public class JavaArray {
 
         // ! Java Multidimensional Array
 
-        int[][] myNum = { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 } };
-        myNum[1][2]=10;
-        System.out.println(myNum[1][2]);
+        // ? Change Element Values
 
+        // int[][] myNum = { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 } };
+        // myNum[1][2] = 10;
+        // System.out.println(myNum[1][2]);
+
+        // ! Loop Through a Multi-Dimensional Array
+
+        // int[][] mynum = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 } };
+        // for (int i = 0; i < mynum.length; i++) {
+        // for (int j = 0; j < mynum[i].length; ++j) {
+        // System.out.print(" "+(mynum[i][j]));
+        // }
+        // }
+
+        // ! Another example (For each)
+
+        int[][] myname = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 } };
+        for (int[] row : myname) {
+            for (int i : row) {
+                System.out.print(" "+(i));
+            }
+        }
     }
 }
