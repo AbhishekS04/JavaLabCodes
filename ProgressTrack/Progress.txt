@@ -14,4 +14,8 @@
 
 // Topic:7 JAVA IF ELSE....ALL TYPES OF..
 
-// Topic:8 JAVA SWITCH...will do it tomorrow
+// Topic:8 JAVA SWITCH
+
+//Topic:9 While loop for loop 
+
+//Topic:10 Java Array 
