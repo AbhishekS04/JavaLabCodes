@@ -46,16 +46,46 @@ public class JavaMethods {
 
     // ! A Method with If...Else
 
-    static void checkAge(int age) {
-        if (age < 18) {
-            System.out.println("You are not eligible for vote");
-        } else {
-            System.out.println("You are eligible for vote");
-        }
-    }
+    // static void checkAge(int age) {
+    // if (age < 18) {
+    // System.out.println("You are not eligible for vote");
+    // } else {
+    // System.out.println("You are eligible for vote");
+    // }
+    // }
 
+    // public static void main(String[] args) {
+    // checkAge(18);
+    // }
+
+    // ! Java Return
+
+    // static int MyMethod(int x){
+    // return 5+x;
+    // }
+
+    // public static void main(String[] args) {
+    // System.out.println(MyMethod(3));
+    // }
+
+    // ! another example
+
+    // static int MyMethod(int x, int y){
+    // return x+y;
+    // }
+
+    // public static void main(String[] args) {
+    // System.out.println("The sum of x and y is: "+MyMethod(3,3));
+    // }
+
+    // !You can also store the result in a variable (recommended, as it is easier to
+    // read and maintain)
+
+    static int MyMethod(int x, int y) {
+        return x + y;
+    }
     public static void main(String[] args) {
-        checkAge(18);
+        int z = (MyMethod(10, 5));
+        System.out.println("The sum of x and y is: "+ z);
     }
-
 }
