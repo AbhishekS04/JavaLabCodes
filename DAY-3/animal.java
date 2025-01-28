@@ -1,4 +1,6 @@
-//! P.S:5 Define a base class Animal, with type as member variable that imply domestic or wild animal. Initialize the variable with get() method. Define a derived class Cat which has two member variables breed and colour. Initialize the variables with set() method. Define show() method in Cat class that show the attributes of a Cat. Define a Main class and create two objects of the Cat class
+/*
+! P.S:5 Define a base class Animal, with type as member variable that imply domestic or wild animal. Initialize the variable with get() method. Define a derived class Cat which has two member variables breed and colour. Initialize the variables with set() method. Define show() method in Cat class that show the attributes of a Cat. Define a Main class and create two objects of the Cat class
+*/
 
 class animalk {
     String type;
