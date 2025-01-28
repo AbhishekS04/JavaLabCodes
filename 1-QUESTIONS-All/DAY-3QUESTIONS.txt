@@ -15,3 +15,5 @@
 // Define a class numb with a single variable and a parameterized constructor to initialize the variable define a class denote with which is a child of name class with single variable and a parameterized constructor defined a class for which is a child class of denote that has a parameterized constructor it has a display method to show the function created two objects of frack class and display the function in the main class
 
 // Define a class transport with variable transport and name define the class road transport water transport air transport that are the children of class transportwhich distinct single variablein the each class define the show method in each of the child classes to displaythe record of each type of transport
+
+// Define a class student with membervariable name , roll ,  reg , define to child class ug student and pg student with a single variable in each class use constructor to initialize all the variable use display method in ug & pg studentclass to display the record of student

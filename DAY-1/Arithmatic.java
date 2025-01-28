@@ -1,7 +1,7 @@
 // 4. write a java prog to define a class arithmatic wih 2 member variable and following methods 1) add( ): to do sum of 2 numbers and print 2)sub(): to do subtraction of 2 numbers and print 3)multiply():to do multipu 4)divition(): "" 5)get(int,int) 
 
 
-class Arithmatic1 {
+class Arithmatic {
     int a, b;
     void get(int x, int y) {
         a = x;
