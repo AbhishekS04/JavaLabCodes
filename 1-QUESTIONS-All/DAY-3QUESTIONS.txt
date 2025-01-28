@@ -1,13 +1,17 @@
 // Write a Java program with multiple classes A, B, and C respectively. All the classes have a single member variable. Class A and Class B have methods to initialize the member variable. Class C has a method for the addition of two variables of the classes A and B respectively, and a show method to display the sum. Define the main method in class C.
 
-// Write a Java program to define a fruit with member variable name and member methods get name show name define a child class orange of fruit class with member variablesseason and prize and member methods get data and display create object of orange class and display the records
+// Write a Java program to define a fruit with member variable name and member methods get name show name define a child class orange of fruit class with member variables season and prize and member methods get data and display create object of orange class and display the records
 
-//Define a class vehicle with one member variable type initialize the variable with constructor define a class car with the number variable model and price initialize thevariable with constructor define a method display() in car class to show the record of a car
+// Define a class vehicle with one member variable type initialize the variable with constructor define a class car with the number variable model and price initialize the variable with constructor define a method display() in car class to show the record of a car
 
-////! Define the 3 classes named Add, Sub, Div with two member variables each and get methods to initialize the  variables and add(), sub() and div() methods in respective classes. All the classes have show() method to display the result of addition, substruction, division respectively. Define Main class that have main() method. In main() method create objects of 3 classes and perform arithmetic operations.
+// Define the 3 classes named Add, Sub, Div with two member variables each and get methods to initialize the variables and add(), sub() and div() methods in respective classes. All the classes have show() method to display the result of addition, subtraction, division respectively. Define Main class that have main() method. In main() method create objects of 3 classes and perform arithmetic operations.
 
-//! The variables are initialized with 12 and 6 respectively.
+// The variables are initialized with 12 and 6 respectively.
 
-//P.S:5 Define a base class Animal, with type as member variable that imply domestic or wild animal. Initialize the variable with get() method. Define a derived class Cat which has two member variables breed and colour. Initialize the variables with set() method. Define show() method in Cat class that show the attributes of a Cat. Define a Main class and create two objects of the Cat class
+// Define a base class Animal, with type as member variable that imply domestic or wild animal. Initialize the variable with get() method. Define a derived class Cat which has two member variables breed and colour. Initialize the variables with set() method. Define show() method in Cat class that show the attributes of a Cat. Define a Main class and create two objects of the Cat class
 
-//Define a class animal with a single variable type and a parameterized constructor to inherit the variable define a class dog which is a child class of animal with two variable breed and name write a parameterized constructor in the dog class to initialize the object define display method to showthe recordcreate two objects of dog class and show the record
+// Define a class animal with a single variable type and a parameterized constructor to inherit the variable define a class dog which is a child class of animal with two variable breed and name write a parameterized constructor in the dog class to initialize the object define display method to show the record create two objects of dog class and show the record
+
+// Define a class numb with a single variable and a parameterized constructor to initialize the variable define a class denote with which is a child of name class with single variable and a parameterized constructor defined a class for which is a child class of denote that has a parameterized constructor it has a display method to show the function created two objects of frack class and display the function in the main class
+
+// Define a class transport with variable transport and name define the class road transport water transport air transport that are the children of class transportwhich distinct single variablein the each class define the show method in each of the child classes to displaythe record of each type of transport
