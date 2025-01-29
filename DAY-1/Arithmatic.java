@@ -17,7 +17,7 @@ class Arithmatic {
         System.out.println("Multiply of the number is: " + (a * b));
     }
     void division() {
-        System.out.println("Division of the number is: " + (a / b));
+        System.out.printf("Division of the number is: " + (a / b));
     }
     public static void main(String[] args) {
         Arithmatic obj = new Arithmatic();
