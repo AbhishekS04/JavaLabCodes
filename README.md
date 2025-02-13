@@ -1,6 +1,6 @@
 ## Java Lab Codes
 
-This repository contains my personal collection of Java programs and exercises for the **Java Lab**. I upload my lab codes here to keep them organized and stored in a safe place. These codes aim to help me and my friends understand fundamental concepts in Java programming.
+This repository contains Java programs and exercises for the **Java Lab**. The codes are organized and aim to help students and developers understand fundamental concepts in Java programming.
 
 ## Features
 - Well-structured Java programs focusing on core concepts.
