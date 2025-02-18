@@ -1,0 +1,3 @@
+//! wap a java prog to implement interface for a single class
+
+// write a java prog to impliment multiple inheritance for a single child class design the interface and classes in which the main method is defined create 3 objects of calculator class to perform all the arithmatic operations mentioned
