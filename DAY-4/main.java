@@ -27,4 +27,5 @@ public class main {
     }
 }
 
+
 // ? Output : Sum : 52
