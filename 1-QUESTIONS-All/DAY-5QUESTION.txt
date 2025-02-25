@@ -1,0 +1,1 @@
+// write a prog in java in java to create a pkg p1 and within pakckeage create a single class main print the statement int pgk p1 in a method in main class
