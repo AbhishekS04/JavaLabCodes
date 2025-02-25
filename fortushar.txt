@@ -1,0 +1,3 @@
+git checkout <sub-branch-name>
+
+git pull origin main
