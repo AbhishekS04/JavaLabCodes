@@ -1,1 +1,5 @@
-// write a prog in java in java to create a pkg p1 and within pakckeage create a single class main print the statement int pgk p1 in a method in main class
+// Write a program in Java to create a package p1 and within the package create a single class Main. Print the statement "In package p1" in a method in the Main class.
+
+// Write a program in Java to create a package doctor that contains a class named DoctorDetails with variables doctorName and doctorSpecialization. Initialize the variables with constructors. Display the doctor details. Create a main class in the patient package with the main method. Create an object of DoctorDetails and PatientDetails classes and show the records.
+
+// Write a Java program to create a package library. Create a class Book in the package library with variables bookType and accountNumber. Initialize the variables with a constructor. Create a package storeBookDetails which is a child class of Book. It has the variables title, author, and editor. Initialize the variables with a constructor. Define a display method to show the record of a book that includes bookType, accountNumber, title, author, and editor.
