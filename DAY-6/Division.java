@@ -18,13 +18,13 @@ public class Division {
     public void doDivision() {
         try {
             if (divisor == 0) {
-                throw new ArithmeticException("Divisor can not be zero");
+                throw new ArithmeticException("Divisor can not be zero it will throw ArithmeticException");
             }
             System.out.println("Result of division: " + dividend / divisor);
         } catch (Exception exc) {
             System.out.println("404 Error " + exc.getLocalizedMessage());
         } finally {
-            System.out.println("Finally block executed");
+            System.out.println("Finally block executed successfully");
         }
     }
 
