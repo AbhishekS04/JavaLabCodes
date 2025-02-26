@@ -3,26 +3,26 @@
 import java.util.Scanner;
 
 public class Division {
-    private int dividend;
-    private int divisor;
+    float dividend;
+    float divisor;
 
     public void getInput() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the dividend: ");
-        dividend = sc.nextInt();
-        System.out.println("Enter the divisor: ");
-        divisor = sc.nextInt();
-        sc.close();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the Dividend: ");
+        dividend = scanner.nextFloat();
+        System.out.print("Enter the Divisor: ");
+        divisor = scanner.nextFloat();
+        scanner.close();
     }
 
     public void doDivision() {
         try {
             if (divisor == 0) {
-                throw new ArithmeticException("Divisor cannot be zero");
+                throw new ArithmeticException("Divisor can not be zero");
             }
             System.out.println("Result of division: " + dividend / divisor);
-        } catch (ArithmeticException e) {
-            System.out.println(e);
+        } catch (Exception exc) {
+            System.out.println("404 Error " + exc.getLocalizedMessage());
         } finally {
             System.out.println("Finally block executed");
         }
