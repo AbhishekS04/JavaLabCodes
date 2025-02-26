@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 git checkout ForTushar
+=======
+git checkout <sub-branch-name>
+>>>>>>> 00d077a549803896b62dd1d7e48e11477e6ad17d
 
 git pull origin main
