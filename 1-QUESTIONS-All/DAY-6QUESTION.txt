@@ -1,0 +1,2 @@
+// Write a java program to define a class Division with two member variables dividend, divisor. Define a method getInput() with Scanner class to take input the values in member variables. Write a method doDivision() to perform division operation. If the divisor is taken as zero, then an exception will be thrown "ArithmeticException", else it will print the result of the operation. Handle exception using try..catch..finally.
+
