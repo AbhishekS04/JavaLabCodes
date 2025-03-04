@@ -11,10 +11,13 @@ public class Student {
 
     public void getData() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        
         System.out.print("Enter the Student Name: ");
         studentName = bufferedReader.readLine();
+        
         System.out.print("Enter the Student Program: ");
         studentProgram = bufferedReader.readLine();
+        
         System.out.print("Enter the Student Semester: ");
         studentSemester = bufferedReader.readLine();
     }
