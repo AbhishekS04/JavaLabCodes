@@ -15,7 +15,7 @@ public class Sorting {
     public void sort() {
         try {
             Arrays.sort(array);
-            int invalidAccess = array[size];
+            // int invalidAccess = array[size];
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("ArrayIndexOutOfBoundsException: " + e.getMessage());
         }
