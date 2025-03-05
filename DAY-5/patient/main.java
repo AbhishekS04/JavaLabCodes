@@ -11,3 +11,10 @@ public class Main {
         patient.show();
     }
 }
+
+//! output
+
+//! Doctor Name: Dr. Smith
+//! Doctor Specialization: Cardiology
+//! Patient ID: 101
+//! Patient Name: John Doe
