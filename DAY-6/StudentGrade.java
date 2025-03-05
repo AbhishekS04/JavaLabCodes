@@ -1,16 +1,16 @@
-//! 6)6.Write a java program to define a class StudentGrade with member variables stu_name, stu_grade, grade, marks. The methods are:
-//!     a> getData() to input values for variables using the BufferedReader class (use throws). if the marks enter is not within range (0-100), then throw an exception called WrongMark and print the alert message. If the grade not in O, A+, A, B+, B, C, P, F
-//!     then call exception "InvalidGrade" and print the alert message.
-//!     b> matchGrade() to match marks and grade as given in the following table. If it does not match then throw exception "GradeMismatch" : marks | grade
-//!                     90-100      O
-//!                     80-89       A+
-//!                     70-79       A
-//!                     60-69       B+
-//!                     50-59       B
-//!                     40-49       C
-//!                     30-39       P
-//!                     20-29       F
-//!     c> showData() to display the record of student.
+// ! 6)6.Write a java program to define a class StudentGrade with member variables stu_name, stu_grade, grade, marks. The methods are:
+// !     a> getData() to input values for variables using the BufferedReader class (use throws). if the marks enter is not within range (0-100), then throw an exception called WrongMark and print the alert message. If the grade not in O, A+, A, B+, B, C, P, F
+// !     then call exception "InvalidGrade" and print the alert message.
+// !     b> matchGrade() to match marks and grade as given in the following table. If it does not match then throw exception "GradeMismatch" : marks | grade
+// !                     90-100      O
+// !                     80-89       A+
+// !                     70-79       A
+// !                     60-69       B+
+// !                     50-59       B
+// !                     40-49       C
+// !                     30-39       P
+// !                     20-29       F
+// !     c> showData() to display the record of student.
 
 
 import java.io.BufferedReader;
