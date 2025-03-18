@@ -9,7 +9,7 @@ class FirstThread extends Thread {
         for (int i = 0; i <= 10; i++) {
             System.out.println("First Thread: " + i);
             try {
-                Thread.sleep(500);
+                Thread.sleep(50);
             } catch (InterruptedException e) {
                 System.out.println("First Thread interrupted");
             }
@@ -26,7 +26,7 @@ class SecondThread extends Thread {
         for (int i = 0; i <= 10; i++) {
             System.out.println("Second Thread: " + i);
             try {
-                Thread.sleep(500);
+                Thread.sleep(50);
             } catch (InterruptedException e) {
                 System.out.println("Second Thread interrupted");
             }
