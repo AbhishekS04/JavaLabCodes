@@ -34,7 +34,7 @@ class GP implements Runnable {
     }
 }
 
-public class mainX {
+public class MainX {
     public static void main(String[] args) {
         AP ap = new AP(5);
         GP gp = new GP(5, 2);
