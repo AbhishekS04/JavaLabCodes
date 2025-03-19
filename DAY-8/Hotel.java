@@ -12,18 +12,58 @@ import java.util.Scanner;
 public class Hotel {
     private ArrayList<String> hotelList;
 
-    public Hotel() {
+    public Hotel() {    
         hotelList = new ArrayList<>();
     }
 
     public void getItem() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the name of the hotel:");
+        System.out.print("Enter the name of the hotel: ");                     
         String hotelName = scanner.nextLine();
         hotelList.add(hotelName);
         showHotel();
     }
 
-    public static void main(String[] args) {
-        Hotel hotel =new hotel();
+    public void showHotel() {           
+        System.out.println("Hotel List:");
+        for (int i = 0; i < hotelList.size(); i++) {
+            System.out.println((i + 1) + ". " + hotelList.get(i));
+        }
     }
+
+    public void insertNewHotel() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the name of the new hotel:");
+        String hotelName = scanner.nextLine();
+        hotelList.add(hotelName);
+        showHotel();
+    }
+
+    public void changeList() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the index of the hotel to change:");
+        int index = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Enter the new name of the hotel:");
+        String newName = scanner.nextLine();
+        hotelList.set(index - 1, newName);
+        showHotel();
+    }
+
+    public void removeList() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the index of the hotel to remove:");
+        int index = scanner.nextInt();
+        scanner.nextLine();
+        hotelList.remove(index - 1);
+        showHotel();
+    }
+
+    public static void main(String[] args) {    
+        Hotel hotel = new Hotel();
+        hotel.getItem();
+        hotel.insertNewHotel();
+        hotel.changeList();
+        hotel.removeList();
+    }
+}
