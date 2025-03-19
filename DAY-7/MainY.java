@@ -14,10 +14,10 @@ class MathThread extends Thread {
 
     public void run() {
         switch (operation) {
-            case "Add": System.out.println("Addition: " + (a + b)); break;
-            case "Sub": System.out.println("Subtraction: " + (a - b)); break;
-            case "Div": System.out.println("Division: " + (a / b)); break;
-            case "Mod": System.out.println("Modulus: " + (a % b)); break;
+            case "Add": System.out.println(a + " + " + b + " = " + (a + b)); break;
+            case "Sub": System.out.println(a + " - " + b + " = " + (a - b)); break;
+            case "Div": System.out.println(a + " / " + b + " = " + (a / b)); break;
+            case "Mod": System.out.println(a + " % " + b + " = " + (a % b)); break;
         }
     }
 }
@@ -26,7 +26,7 @@ public class MainY {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        // Get input numbers
+        // Get numbers
         System.out.print("Enter first number: ");
         int a = sc.nextInt();
         System.out.print("Enter second number: ");
@@ -38,8 +38,8 @@ public class MainY {
         MathThread div = new MathThread(a, b, "Div");
         MathThread mod = new MathThread(a, b, "Mod");
 
-        // Set priorities
-        System.out.println("\nSet priorities (1-10):");
+        // Set priorities (1-5 for simplicity)
+        System.out.println("\nSet priorities (1-5):");
         System.out.print("Addition priority: ");
         add.setPriority(sc.nextInt());
         System.out.print("Subtraction priority: ");
@@ -49,8 +49,8 @@ public class MainY {
         System.out.print("Modulus priority: ");
         mod.setPriority(sc.nextInt());
 
-        // Start threads
-        System.out.println("\nResults (based on priority):");
+        // Run threads
+        System.out.println("\nResults:");
         add.start();
         sub.start();
         div.start();
