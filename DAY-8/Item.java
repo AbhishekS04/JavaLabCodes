@@ -66,10 +66,10 @@ public class Item {
 // Item Name: Apple
 // Quantity: 10
 // Price: 1.5
-// Enter quantity for item 1: 2
-// Enter price for item 1: 3.0
-// Enter quantity for item 2: 3
-// Enter price for item 2: 2.0
-// Enter quantity for item 3: 1
-// Enter price for item 3: 1.0
-// Total price of three items: 11.0
+// !Enter quantity for item 1: 2
+// !Enter price for item 1: 3.0
+// !Enter quantity for item 2: 3
+// !Enter price for item 2: 2.0
+// !Enter quantity for item 3: 1
+// !Enter price for item 3: 1.0
+// !Total price of three items: 11.0

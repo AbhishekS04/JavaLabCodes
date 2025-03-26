@@ -1,0 +1,50 @@
+Java Applet Class Notes
+
+
+without the web browser, applet does not run,
+applet does not need main method for execution, but application programs need main method.
+applet is less secure.
+applet requires paint() method to run. Applet is tag based.Applet does not support multithreading.
+
+Applet needs help from HTML, hence it is tag based. here we need both a java file and a html file, and this html file invokes the java file.
+
+Applet lifecycle start with the state -> init() (initialisation state), followed by  -> start() (starts execution) -> paint() -> stop() -> destroy()
+
+except paint(), all the other methods are implicitly called, hence paint() method is mandatory.
+
+start() -> paint() -> stop()  => it is a loop, for each browser refresh
+
+1. init() -> this function is called once when the applet starts execution.
+2. start() -> this method is repeatedly called each time the applet is started or revisited.
+3. paint() -> this method is called when the applet begins execution. It consists one object of Graphics class.
+4. stop() -> it is called when the applet is suspended.
+5. destroy() -> this method is called when the applet is removed from the memory.
+example applet program
+
+import java.applet.Applet;
+import java.awt.*;
+
+public class FirstApplet extends Applet{
+    public void init() {System.out.println("FirstApplet Init");}
+    public void start(){}
+    public void paint(Graphics g) {
+        g.drawString("FirstApplet", 50, 50);
+    }
+    public void stop() {}
+    public void destroy(){}
+}
+
+
+show.html
+<html>
+<applet
+code = "FirstApplet",
+width=200,
+height=200>
+</applet>
+</html>
+
+
+Assignment 9>
+1. write a java applet program to print a message.
+2. write a java applet program to take parameter from html and print the value of the parameter to the web browser.

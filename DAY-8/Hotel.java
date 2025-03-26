@@ -67,3 +67,4 @@ public class Hotel {
         hotel.removeList();
     }
 }
+
