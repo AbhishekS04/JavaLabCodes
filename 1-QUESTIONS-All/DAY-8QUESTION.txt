@@ -48,3 +48,4 @@ height=200>
 Assignment 9>
 1. write a java applet program to print a message.
 2. write a java applet program to take parameter from html and print the value of the parameter to the web browser.
+3.wap a prog in java  to design a form that includes one label one text field and one button using java swing
